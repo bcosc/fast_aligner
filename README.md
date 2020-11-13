@@ -4,11 +4,13 @@ A tool for calling all types of variants!
 DISCLAIMER: This tool/README is for CWL lessons only. There is actually no tool.
 
 ## Getting Started
+
+```
 git clone https://github.com/bcosc/fast_genome_variants.git
 make
 ./fgv haplotype -input sample.bam -output sample.haplotype.vcf
 ./fgv joint_haplotype -input sample.bam -input sample2.bam -output sample.haplotype.vcf
-
+```
 
 ## Tool Requirements
 
